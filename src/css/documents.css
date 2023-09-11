@@ -1,0 +1,53 @@
+.documents-title {
+    margin: 90px 0 0 0;
+    color: #263238;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59.5px;
+}
+
+.documents-subtitle {
+    margin: 35px 0 0 0;
+    color: #263238;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.documents-list {
+    display: flex;
+    justify-content: space-between;
+    width: 103%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.documents-item-image {
+    display: flex;
+    justify-content: center;
+}
+
+.documents-item-title {
+    color: #263238;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59.5px;
+}
+
+.documents-item-subtitle {
+    color: #263238;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
