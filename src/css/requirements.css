@@ -1,0 +1,10 @@
+.requirements {
+    background: #F1FBF9;
+    width: 100%;
+    height: 655px;
+}
+
+.requirements-background {
+    display: flex;
+    justify-content: center;
+}
