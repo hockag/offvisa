@@ -1,0 +1,17 @@
+.footer {
+    background: #2C514A;
+    height: 280px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+}
+
+.footer-address {
+    display: flex;
+    justify-content: space-between;
+}
