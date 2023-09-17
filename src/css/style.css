@@ -1,10 +1,14 @@
-@import url(./header.css);
-@import url(./first.css);
-@import url(./documents.css);
-@import url(./authorization.css);
-@import url(./requirements.css);
-@import url(./catalog.css);
-@import url(./footer.css);
+@import url(parts/index-css/header.css);
+@import url(parts/index-css/first.css);
+@import url(parts/index-css/documents.css);
+@import url(parts/index-css/authorization.css);
+@import url(parts/index-css/requirements.css);
+@import url(parts/index-css/catalog.css);
+@import url(parts/index-css/footer.css);
+
+@import url(./parts/types-toursit-css/visa.css);
+@import url(./parts/types-toursit-css/what.css);
+@import url(./parts/types-toursit-css/how.css);
 
 .container {
     max-width: 1140px;

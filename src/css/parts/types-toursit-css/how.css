@@ -1,0 +1,28 @@
+.how {
+    background: url("../../../img/how-map.png") no-repeat;
+    height: 859px;
+    width: 100%;
+}
+
+.how-box {
+    padding-top: 90px;
+}
+
+.how-get {
+    width: 1110px;
+    height: 250px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 6px 6px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.how-get-title {
+    margin: 0;
+    padding: 50px 0 0 53px;
+    color: #263238;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59.5px;
+}

@@ -1,0 +1,51 @@
+.visa {
+    background: url("../../../img/types-tourist-img.png") no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.visa-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    margin: 0;
+    padding-top: 105px;
+}
+
+.visa-subtitle {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    padding-top: 35px;
+}
+
+.visa-button {
+    width: 250px;
+    height: 54px;
+    border-radius: 10px;
+    background: #6CC5B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    margin: 53px  auto;
+
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
