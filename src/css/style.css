@@ -10,6 +10,9 @@
 @import url(./parts/types-toursit-css/what.css);
 @import url(./parts/types-toursit-css/how.css);
 
+@import url(./parts/types-single-multi-css/tourist.css);
+@import url(./parts/types-single-multi-css/tourist-visa.css);
+
 .container {
     max-width: 1140px;
     margin: 0 auto;

@@ -1,0 +1,29 @@
+.tourist {
+    background: url("../../../img/tourist-background.png") no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.tourist-title {
+    padding: 115px 0 0 0;
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.tourist-subtitle {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 35px 0 0 0;
+    margin: 0;
+}

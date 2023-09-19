@@ -1,0 +1,48 @@
+.tourist-visa-text {
+    color: #263238;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0;
+    margin: 90px 0 0 0;
+    width: 777px;
+}
+
+.tourist-visa-box {
+    width: 536px;
+    height: 342px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 6px 6px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.tourist-visa-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+}
+
+.tourist-visa-box-title {
+    color: #263238;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59.5px;
+    padding: 51px 0 0 47px;
+    margin: 0;
+}
+
+.tourist-visa-box-subtitle {
+    color: #263238;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 520px;
+    padding: 49px 0 0 47px;
+    margin: 0;
+}
