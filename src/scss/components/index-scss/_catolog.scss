@@ -1,0 +1,124 @@
+$var1: #FFFFFF;
+$var2: #464646;
+$var3: #6CC5B5;
+$var4: #E0E4E3;
+$var5: #263238;
+
+.catalog-item {
+  width: 349px;
+  height: 474px;
+  border-radius: 10px;
+  background: $var1;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  &-image {
+    width: 349px;
+    height: 352px;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    &-title {
+      color: $var1;
+      font-family: 'Arsenal', sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 59.5px;
+      margin: 0;
+      position: absolute;
+      bottom: 0;
+      left: 30px;
+    }
+  }
+  &-info-title {
+    margin: 0;
+    color: $var2;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 14px;
+  }
+  &-button-1 {
+    width: 137px;
+    height: 35px;
+    border-radius: 10px;
+    background: $var3;
+    border: none;
+    outline: none;
+    transition: 0.25s;
+    color: $var1;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &-button-2 {
+    width: 137px;
+    height: 35px;
+    border-radius: 10px;
+    background: $var4;
+    border: none;
+    outline: none;
+    transition: 0.25s;
+    color: $var5;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &-button {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 84%;
+    padding-top: 14px;
+    &-1:hover, &-2:hover {
+      transform: translateY(5px);
+    }
+    &-1:active, &-2:active {
+      transform: translateY(-2px);
+    }
+  }
+}
+.catalog-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 82px 0 0 0;
+}
+.catalog-title {
+  color: $var5;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+  margin: 90px 0 0 0;
+}
+.catalog-subtitle {
+  margin: 35px 0 0 0;
+  color: $var5;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

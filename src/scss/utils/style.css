@@ -1,0 +1,681 @@
+.header {
+  background: #418075;
+  width: 100%;
+  height: 100px;
+}
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  width: 100%;
+}
+.header_box {
+  display: flex;
+  align-items: center;
+}
+.header_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+.header_item a {
+  color: #FFFFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header_right {
+  margin: 24px 0 0 40px;
+  width: 30px;
+  height: 30px;
+}
+.header_right a img {
+  width: 100%;
+  height: 100%;
+}
+
+.first {
+  background: url("../../../../src/img/side-view-man-holding-passports 2.png") no-repeat;
+  width: 100%;
+  height: 685px;
+}
+.first h2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Arsenal", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70.5px;
+  margin: 0;
+  padding-top: 90px;
+}
+.first-button {
+  width: 250px;
+  height: 54px;
+  border-radius: 10px;
+  background: #6CC5B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  margin: 53px auto;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.first_play {
+  display: flex;
+  justify-content: center;
+}
+
+.documents-title {
+  margin: 90px 0 0 0;
+  color: #263238;
+  text-align: center;
+  font-family: "Arsenal", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+}
+
+.documents-subtitle {
+  margin: 35px 0 0 0;
+  color: #263238;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.documents-list {
+  display: flex;
+  justify-content: space-between;
+  width: 103%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.documents-item {
+  width: 348px;
+  height: 300px;
+  transition: 0.25s;
+}
+.documents-item-image {
+  display: flex;
+  justify-content: center;
+}
+.documents-item-title {
+  color: #263238;
+  font-family: "Arsenal", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+}
+.documents-item-subtitle {
+  color: #263238;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.documents-item:hover {
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.documents-item-title {
+  margin: 33px 0 0 0;
+}
+.documents-item-subtitle {
+  margin: 30px 0 0 0;
+}
+
+.authorization {
+  background: url("../../../../src/img/passport-pages-with-a-lot-of-visa-stamps_180224-112 1.png") no-repeat;
+  width: 100%;
+  height: 680px;
+  margin-top: 90px;
+}
+.authorization-title {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Arsenal", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+  padding-top: 90px;
+}
+.authorization-list {
+  padding: 0;
+  width: 779px;
+  margin: 0 auto;
+}
+.authorization-item p {
+  margin: 0;
+  padding-top: 16px;
+  color: #FFFFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.authorization-button {
+  width: 250px;
+  height: 54px;
+  border-radius: 10px;
+  background: #6CC5B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  margin: 53px auto;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.requirements {
+  background: url("../../../../src/img/map-requirements 2.png") no-repeat;
+  width: 100%;
+  height: 655px;
+}
+.requirements-image {
+  width: 67px;
+  height: 57px;
+  background: #418075;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.requirements-item {
+  width: 255px;
+  height: 349px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  padding-top: 30px;
+  transition: 0.25s;
+}
+.requirements-item-title {
+  padding: 30px 0 0 0;
+  margin: 0;
+  color: #263238;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+.requirements-item-subtitle {
+  margin: 0;
+  padding: 30px 0 0 0;
+  color: #263238;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.requirements-item:hover {
+  box-shadow: 6px 6px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.requirements-title {
+  color: #263238;
+  text-align: center;
+  font-family: "Arsenal", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+  margin: 0;
+  padding-top: 90px;
+}
+.requirements-subtitle {
+  color: #263238;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 35px;
+  margin: 0;
+}
+.requirements-list {
+  padding: 50px 0 0 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: 0 auto;
+}
+
+.catalog-item {
+  width: 349px;
+  height: 474px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.catalog-item-image {
+  width: 349px;
+  height: 352px;
+  position: relative;
+}
+.catalog-item-image img {
+  width: 100%;
+  height: 100%;
+}
+.catalog-item-image-title {
+  color: #FFFFFF;
+  font-family: "Arsenal", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+.catalog-item-info-title {
+  margin: 0;
+  color: #464646;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.catalog-item-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 14px;
+}
+.catalog-item-button-1 {
+  width: 137px;
+  height: 35px;
+  border-radius: 10px;
+  background: #6CC5B5;
+  border: none;
+  outline: none;
+  transition: 0.25s;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.catalog-item-button-2 {
+  width: 137px;
+  height: 35px;
+  border-radius: 10px;
+  background: #E0E4E3;
+  border: none;
+  outline: none;
+  transition: 0.25s;
+  color: #263238;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.catalog-item-button {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 84%;
+  padding-top: 14px;
+}
+.catalog-item-button-1:hover, .catalog-item-button-2:hover {
+  transform: translateY(5px);
+}
+.catalog-item-button-1:active, .catalog-item-button-2:active {
+  transform: translateY(-2px);
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 82px 0 0 0;
+}
+
+.catalog-title {
+  color: #263238;
+  text-align: center;
+  font-family: "Arsenal", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+  margin: 90px 0 0 0;
+}
+
+.catalog-subtitle {
+  margin: 35px 0 0 0;
+  color: #263238;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer {
+  background: #2C514A;
+  height: 280px;
+  width: 100%;
+  margin-top: 90px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 47px;
+}
+.footer-address {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.footer-address-list-1, .footer-address-list-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-address-item-1 a, .footer-address-item-2 a {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  font-family: "Outfit", sans-serif;
+}
+.footer-legal {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.footer-contact h5, a {
+  color: #FFFFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin: 0;
+}
+
+.footer-legal h5, a {
+  color: #FFFFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+  margin: 0;
+}
+
+.tourist {
+  background: url("../../../../src/img/tourist-background.png") no-repeat;
+  height: 400px;
+  width: 100%;
+}
+.tourist-title {
+  padding: 115px 0 0 0;
+  margin: 0;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Arsenal", sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+}
+.tourist-subtitle {
+  color: #FFFFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding: 35px 0 0 0;
+  margin: 0;
+}
+
+.tourist-visa-text {
+  color: #263238;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  margin: 90px 0 0 0;
+  width: 777px;
+}
+
+.tourist-visa-box {
+  width: 536px;
+  height: 342px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.tourist-visa-box-title {
+  color: #263238;
+  font-family: "Arsenal", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+  padding: 51px 0 0 47px;
+  margin: 0;
+}
+.tourist-visa-box-subtitle {
+  color: #263238;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 520px;
+  padding: 49px 0 0 47px;
+  margin: 0;
+}
+
+.tourist-visa-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 0 0;
+}
+
+.how {
+  background: url("../../../../src/img/how-map.png") no-repeat;
+  height: 859px;
+  width: 100%;
+}
+.how-box {
+  padding-top: 90px;
+}
+.how-get {
+  width: 1110px;
+  height: 250px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.how-get-title {
+  margin: 0;
+  padding: 50px 0 0 53px;
+  color: #263238;
+  font-family: "Arsenal", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+}
+.how-get-title-2 {
+  color: #263238;
+  font-family: "Arsenal", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+  margin: 0;
+  padding: 50px 0 0 53px;
+}
+.how-get-list, .how-get-list-2 {
+  padding: 12px 0 0 53px;
+}
+.how-get-2 {
+  width: 1110px;
+  height: 342px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-top: 84px;
+}
+.how-get-item, .how-get-item-2 {
+  color: #263238;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.visa {
+  background: url("../../../../src/img/types-tourist-img.png") no-repeat;
+  width: 100%;
+  height: 400px;
+}
+.visa-title {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Arsenal", sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  margin: 0;
+  padding-top: 105px;
+}
+.visa-subtitle {
+  color: #FFFFFF;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+  padding-top: 35px;
+}
+.visa-button {
+  width: 250px;
+  height: 54px;
+  border-radius: 10px;
+  background: #6CC5B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  margin: 53px auto;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.what-box {
+  width: 1110px;
+  height: 607px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 4px 0 rgba(0, 0, 0, 0.25);
+  margin: 90px 0 90px 0;
+}
+.what-box-title {
+  margin: 0;
+  color: #263238;
+  font-family: "Arsenal", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.5px;
+  padding: 50px 0 0 65px;
+}
+
+.what {
+  height: 697px;
+}
+.what-list {
+  padding: 50px 0 0 65px;
+  width: 960px;
+}
+.what-item p {
+  color: #263238;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
